@@ -1,0 +1,50 @@
+
+.s1lheading{
+    color: #1f1f1f;
+    font-size: 5.25rem;
+    line-height: 5.75rem;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+.s1lpara{
+    font-size: 1.25rem;
+}
+.button{
+    color: #0056d2 !important;
+    border: 2px solid #0056d2 ;
+}
+.row{
+    margin: 0 10% 0 20% !important;
+}
+.s1img{
+    max-width: 459px;
+    max-height: 497px;
+
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .row{
+        margin: 0% 7% !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .row{
+        margin: 0% !important;
+        
+    }
+    .s1lheading{
+        color: #1f1f1f;
+        font-size: 4rem !important;
+        line-height: 4rem !important;
+    }
+    .section1-left{
+        padding: 0% !important;
+    }
+}  
+
+
+
+    
