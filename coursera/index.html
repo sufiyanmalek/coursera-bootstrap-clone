@@ -1,132 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.scss">
-    <title>Coursera</title>
-  </head>
-  <body>
-    <div class="container-fluid p-0">
-      <!-- ----------------------------------------   NAVBAR   ---------------------------------------------------------------------- -->
-      <nav class="navbar navbar-expand-lg bg-white p-0 text-dark border-bottom">
-        <div class="container-fluid">
-          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand w-auto "  href="https://seekvectorlogo.com/coursera-vector-logo-svg/" target="_blank"><img style="width: 127px; " src="https://seekvectorlogo.com/wp-content/uploads/2022/02/coursera-vector-logo-2022.png" /></a>
-          
-          <svg class="searchBtn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ">
-              <li class="nav-item dropdown my-auto me-4">
-                <a style="font-weight: 900;" class="nav-link dropdown-toggle primaryBg text-white py-2 px-3 rounded-2 buttonClick linkFont" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Explore
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <form class="d-flex nav-link" role="search">
-                  <input class="form-control  form-input border-1 border-dark rounded-0 rounded-start  " type="search" placeholder="What do you want to learn?" aria-label="Search">
-                  <button class="btn border border-dark border-start-0 rounded-0 rounded-end primaryBg" type="submit"><svg class="text-center" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-293.000000, -23.000000)"><g fill="#E1E1E1"><g transform="translate(293.000000, 22.000000)"><path d="M11.355485,11.4503883 L16.0066609,16.1015642 L15.1015642,17.0066609 L10.4503883,12.355485 C9.34711116,13.2583262 7.93681293,13.8 6.4,13.8 C2.8653776,13.8 0,10.9346224 0,7.4 C0,3.8653776 2.8653776,1 6.4,1 C9.9346224,1 12.8,3.8653776 12.8,7.4 C12.8,8.93681293 12.2583262,10.3471112 11.355485,11.4503883 Z M6.4,12.52 C9.22769792,12.52 11.52,10.2276979 11.52,7.4 C11.52,4.57230208 9.22769792,2.28 6.4,2.28 C3.57230208,2.28 1.28,4.57230208 1.28,7.4 C1.28,10.2276979 3.57230208,12.52 6.4,12.52 Z"></path></g></g></g></svg></button>
-                </form>
-              </li>
-            </ul>
-            <ul class="linkUl navbar-nav  ms-auto">
-              <li class="nav-item dropdown my-auto ">
-                <a class="nav-link dropdown-toggle active linkFont dpdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span>Online</span> Degrees
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              
-              <li class="nav-item my-auto ">
-                <a class="nav-link active linkFont link" aria-current="page" href="#"><span>Find your New</span> Career</a>
-              </li>
-              <li class="nav-item my-auto">
-                <a class="nav-link active linkFont link" href="#"><span>For</span> Enterprise</a>
-              </li>
-              
-              <li class="nav-item my-auto">
-                <a class="nav-link active linkFont link"><span>For</span> Universities</a>
-              </li>
 
-              <li class="nav-item my-auto">
-                <a class="nav-link primaryColor linkFont link">Log In</a>
-              </li>
-              <li class="nav-item my-auto">
-                <button class="nav-link btn py-2 px-3 primaryBg text-white border-0 linkFont" style="font-weight: 900;">Join<span> for Free</span></button>
-              </li>
-              
-            </ul>
-            
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.scss">
+  <title>Coursera</title>
+</head>
+
+<body>
+  <div class="container-fluid p-0">
+    <!-- ----------------------------------------   NAVBAR   ---------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg bg-white p-0 text-dark border-bottom">
+
+      <div class="container-fluid">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand w-auto " href="https://seekvectorlogo.com/coursera-vector-logo-svg/" target="_blank"><img style="width: 127px; " src="https://seekvectorlogo.com/wp-content/uploads/2022/02/coursera-vector-logo-2022.png" /></a>
+
+        <svg class="searchBtn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </g>
+        </svg>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ">
+            <li class="nav-item dropdown my-auto me-4">
+              <a style="font-weight: 900;" class="nav-link dropdown-toggle primaryBg text-white py-2 px-3 rounded-2 buttonClick linkFont" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <form class="d-flex  nav-link" role="search">
+                <input class="form-control  form-input border-1 border-dark rounded-0 rounded-start  " type="search" placeholder="What do you want to learn?" aria-label="Search">
+                <button class="btn border border-dark border-start-0 rounded-0 rounded-end primaryBg" type="submit"><svg class="text-center" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-293.000000, -23.000000)">
+                      <g fill="#E1E1E1">
+                        <g transform="translate(293.000000, 22.000000)">
+                          <path d="M11.355485,11.4503883 L16.0066609,16.1015642 L15.1015642,17.0066609 L10.4503883,12.355485 C9.34711116,13.2583262 7.93681293,13.8 6.4,13.8 C2.8653776,13.8 0,10.9346224 0,7.4 C0,3.8653776 2.8653776,1 6.4,1 C9.9346224,1 12.8,3.8653776 12.8,7.4 C12.8,8.93681293 12.2583262,10.3471112 11.355485,11.4503883 Z M6.4,12.52 C9.22769792,12.52 11.52,10.2276979 11.52,7.4 C11.52,4.57230208 9.22769792,2.28 6.4,2.28 C3.57230208,2.28 1.28,4.57230208 1.28,7.4 C1.28,10.2276979 3.57230208,12.52 6.4,12.52 Z"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg></button>
+              </form>
+            </li>
+          </ul>
+          <ul class="linkUl navbar-nav  ms-auto">
+            <li class="nav-item dropdown my-auto ">
+              <a class="nav-link dropdown-toggle active linkFont dpdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="navSpan">Online</span> Degrees
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item my-auto ">
+              <a class="nav-link active linkFont link" aria-current="page" href="#"><span class="navSpan">Find your New</span> Career</a>
+            </li>
+            <li class="nav-item my-auto">
+              <a class="nav-link active linkFont link" href="#"><span class="navSpan">For</span> Enterprise</a>
+            </li>
+
+            <li class="nav-item my-auto">
+              <a class="nav-link active linkFont link"><span class="navSpan">For</span> Universities</a>
+            </li>
+
+            <li class="nav-item my-auto">
+              <a class="nav-link primaryColor linkFont link">Log In</a>
+            </li>
+            <li class="nav-item my-auto">
+              <button class="nav-link btn py-2 px-3 primaryBg text-white border-0 linkFont" style="font-weight: 900;">Join<span class="navSpan"> for Free</span></button>
+            </li>
+
+          </ul>
+
         </div>
-      </nav>
+      </div>
+    </nav>
 
 
 
-      <!-- ------------------------------------------------------------------------------------Section-1------------------------------------------------------------>
-      <section class="section1 border border-bottom">
-        <div class="row  ">
-          <div class="section1-left col-12 col-sm-12 col-md-12 col-lg-7 px-5 py-5 ">
-            <h1 class="s1lheading py-5">Learn Without<br> Limits</h1>
-            <p class="s1lpara text-sm-center">
-              Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.
-            </p>
-            <button class="btn btn-primary primaryBg rounded-1 py-3 px-5" >Join for Free</button>
-            <button class="btn btn-outline-primary py-3 px-5  button dpdown">Try Coursera for Business</button>
-          </div>
-          <div class="section1-right col-6 col-md-3  col-lg-5 ps-5">
-            <img class="s1img" class="w-100" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/33EmCuyKJT5MD5DOiYCcCV/c4e335120bb5d1df52add54e9ade10ac/CourseraLearners_C_Composition_Lochan.png?auto=format%2Ccompress&dpr=1&w=459&h=497&q=40" alt="">
-          </div>
+    <!-- ------------------------------------------------------------------------------------Section-1------------------------------------------------------------>
+    <section class="section1 border border-bottom">
+      <div class="row  ">
+        <div class="section1-left col-12 col-sm-12 col-md-12 col-lg-7 px-5 py-5 ">
+          <h1 class="s1lheading py-5">Learn Without<br> Limits</h1>
+          <p class="s1lpara text-sm-center">
+            Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.
+          </p>
+          <button class="btn btn-primary primaryBg rounded-1 py-3 px-5">Join for Free</button>
+          <button class="btn btn-outline-primary py-3 px-5  button dpdown">Try Coursera for Business</button>
         </div>
-        
-      </section>
-
-
-
-      <!----------------------------------------------------------------                  SECTION 2                      ---------------------------------------- -->
-      <section style="background-color: #f5f5f5;" class="text-center p-5">
-        <h2 class="p-4">
-        We collaborate with <span >275+ leading universities and companies</span>
-        </h2>
-        <div class="p-4 d-flex justify-content-between flex-wrap">
-
-          <a href="/iitb" data-id="iitb" class="css-e9k2ac"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4EkFx0GeevuYlQyB7sC2y4/4b9d715ad3ab3d50641d7f677c4804c6/IIT_Bombay.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4EkFx0GeevuYlQyB7sC2y4/4b9d715ad3ab3d50641d7f677c4804c6/IIT_Bombay.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4EkFx0GeevuYlQyB7sC2y4/4b9d715ad3ab3d50641d7f677c4804c6/IIT_Bombay.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt="IIT Bombay"></a>
-
-          <a href="/iit-roorkee" data-id="iit-roorkee" class="css-e9k2ac"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/7vM8QjnKMPx9iWPBLDAeSI/9acdbc853fc01ce38df8fa67896a09bf/Indian_Institute_of_Technology_Roorkee_logo.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/7vM8QjnKMPx9iWPBLDAeSI/9acdbc853fc01ce38df8fa67896a09bf/Indian_Institute_of_Technology_Roorkee_logo.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/7vM8QjnKMPx9iWPBLDAeSI/9acdbc853fc01ce38df8fa67896a09bf/Indian_Institute_of_Technology_Roorkee_logo.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt=""></a>
-          
-          <a href="/iim-calcutta" data-id="iim-calcutta" class="css-e9k2ac"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6intvCoriH8oDkbGSSlqm5/ceedf032a54cbc1fb7d2ab53a5b291a0/1200px-IIM_Calcutta_Logo.svg.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6intvCoriH8oDkbGSSlqm5/ceedf032a54cbc1fb7d2ab53a5b291a0/1200px-IIM_Calcutta_Logo.svg.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6intvCoriH8oDkbGSSlqm5/ceedf032a54cbc1fb7d2ab53a5b291a0/1200px-IIM_Calcutta_Logo.svg.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt=""></a>
-          
-          <a href="/google" data-id="google" class="css-qm5rar"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt="Google"></a>
-          
-          <a href="/isb" data-id="isb" class="css-e9k2ac"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/9V0ZHPEeFBPLlhvvCnS0x/0310b67e486733af9c9b1ba8be8d072b/ISB_transparent_logo.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/9V0ZHPEeFBPLlhvvCnS0x/0310b67e486733af9c9b1ba8be8d072b/ISB_transparent_logo.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/9V0ZHPEeFBPLlhvvCnS0x/0310b67e486733af9c9b1ba8be8d072b/ISB_transparent_logo.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt="Indian School of Business"></a>
-          
-          <a href="/stanford" data-id="stanford" class="css-4arnal"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4FSFmNXuDIzTvFb7n0v4mK/704ae9e0a7981fb6415f4cb4609bbbb3/stanford.svg?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=27" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4FSFmNXuDIzTvFb7n0v4mK/704ae9e0a7981fb6415f4cb4609bbbb3/stanford.svg?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=27 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4FSFmNXuDIzTvFb7n0v4mK/704ae9e0a7981fb6415f4cb4609bbbb3/stanford.svg?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=27 3x" class="partner-logo-image" style="max-height:27px" alt="Stanford University"></a>
-          
-          <a href="/facebook" data-id="facebook" class="css-e9k2ac"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3bmmVE1BHvDQUFldOXgDQe/75409a97cfd2ee95178b05d475eaaf04/meta.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3bmmVE1BHvDQUFldOXgDQe/75409a97cfd2ee95178b05d475eaaf04/meta.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3bmmVE1BHvDQUFldOXgDQe/75409a97cfd2ee95178b05d475eaaf04/meta.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt="Facebook Partner Logo"></a>
-          
-          <a href="/umich" data-id="umich" class="css-1f5i7kc"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=55" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=55 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=55 3x" class="partner-logo-image" style="max-height:55px" alt="University of Michigan"></a>
-          
-          <a href="/aws" data-id="aws" class="css-e9k2ac"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/a2AuMXiugp5PM6uun7iCA/4fe0cdee6bd59fec786d3feb24bacfd8/1200px-Amazon_Web_Services_Logo.svg.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=37" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/a2AuMXiugp5PM6uun7iCA/4fe0cdee6bd59fec786d3feb24bacfd8/1200px-Amazon_Web_Services_Logo.svg.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=37 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/a2AuMXiugp5PM6uun7iCA/4fe0cdee6bd59fec786d3feb24bacfd8/1200px-Amazon_Web_Services_Logo.svg.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=37 3x" class="partner-logo-image" style="max-height:37px" alt="Amazon Web Services"></a>
-          
-          <a href="/ibm" data-id="ibm" class="css-4arnal"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3toC4I7jbWxiedfxiyNjtT/735faeaf976a9692f425f8c3a7d125dc/1000px-IBM_logo.svg.png?auto=format%2Ccompress&amp;dpr=1&amp;w=&amp;h=32" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3toC4I7jbWxiedfxiyNjtT/735faeaf976a9692f425f8c3a7d125dc/1000px-IBM_logo.svg.png?auto=format%2Ccompress&amp;dpr=2&amp;w=&amp;h=32 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3toC4I7jbWxiedfxiyNjtT/735faeaf976a9692f425f8c3a7d125dc/1000px-IBM_logo.svg.png?auto=format%2Ccompress&amp;dpr=3&amp;w=&amp;h=32 3x" class="partner-logo-image" style="max-height:32px" alt="IBM"></a>
+        <div class="section1-right col-6 col-md-3  col-lg-5 ps-5">
+          <img class="s1img" class="w-100" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/33EmCuyKJT5MD5DOiYCcCV/c4e335120bb5d1df52add54e9ade10ac/CourseraLearners_C_Composition_Lochan.png?auto=format%2Ccompress&dpr=1&w=459&h=497&q=40" alt="">
         </div>
-      </section>
+      </div>
 
-      
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    </section>
+
+
+
+    <!----------------------------------------------------------------                  SECTION 2                      ---------------------------------------- -->
+    <section style="background-color: #f5f5f5;" class="text-center p-5">
+      <h2 class="p-4">
+        We collaborate with <span class="sec2Nav">275+ leading universities and companies</span>
+      </h2>
+      <div class="d-flex justify-content-center flex-wrap">
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4EkFx0GeevuYlQyB7sC2y4/4b9d715ad3ab3d50641d7f677c4804c6/IIT_Bombay.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="iit_bombay">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/7vM8QjnKMPx9iWPBLDAeSI/9acdbc853fc01ce38df8fa67896a09bf/Indian_Institute_of_Technology_Roorkee_logo.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="iit_roorke">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6intvCoriH8oDkbGSSlqm5/ceedf032a54cbc1fb7d2ab53a5b291a0/1200px-IIM_Calcutta_Logo.svg.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/9V0ZHPEeFBPLlhvvCnS0x/0310b67e486733af9c9b1ba8be8d072b/ISB_transparent_logo.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4FSFmNXuDIzTvFb7n0v4mK/704ae9e0a7981fb6415f4cb4609bbbb3/stanford.svg?auto=format%2Ccompress&dpr=1&w=&h=27" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3bmmVE1BHvDQUFldOXgDQe/75409a97cfd2ee95178b05d475eaaf04/meta.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&dpr=1&w=&h=55" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/a2AuMXiugp5PM6uun7iCA/4fe0cdee6bd59fec786d3feb24bacfd8/1200px-Amazon_Web_Services_Logo.svg.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+        </a>
+        <a class="mx-2 my-1" href="#">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3toC4I7jbWxiedfxiyNjtT/735faeaf976a9692f425f8c3a7d125dc/1000px-IBM_logo.svg.png?auto=format%2Ccompress&dpr=1&w=&h=32" alt="">
+        </a>
+      </div>
+    </section>
+
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
